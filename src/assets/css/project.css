@@ -1,0 +1,50 @@
+
+.proj-box {
+    max-width: 350px;
+}
+
+.proj-card, .proj-logo, .proj-overlay,.card {
+    border-radius: 2rem !important  ;
+   
+}
+.proj-card{
+  overflow: hidden;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.proj-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Apply the hover effect to the parent .proj-card */
+.proj-card:hover .proj-overlay {
+    cursor: pointer;
+    background-color: transparent;
+    transform: translateX(-100%);
+}
+
+@media only screen and (max-width:476px){
+    .pimary-cont{
+        height: 100% !important;
+    }
+    .proj-card{
+        margin-bottom:2rem !important;
+    }
+    .proj-card, .proj-logo, .proj-overlay{
+         border-radius: 1rem !important;
+    }
+    .proj-box{
+        margin-bottom: 2rem;
+    }
+}
+

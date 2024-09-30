@@ -1,0 +1,36 @@
+  .name{
+    font-size: 5rem !important;
+  }
+
+  .my-photo-cartoon{
+    max-height: 420px;
+  }
+  
+  @media screen and (max-width:476px) {  
+    .content{
+      text-align: center;
+    }
+    .namewdesc{
+      margin-top:0 !important;
+    }
+    .my-photo-cartoon, .my-img{
+      max-height: 220px;
+    }
+    .header-title {
+      font-size: 2rem !important;
+    }
+    .header-desc{
+      font-size: 1rem !important;
+    }
+  
+    .explorebtn{
+        min-width:100%;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    #home{
+      height: 100% !important;
+    }
+  
+  }
+  

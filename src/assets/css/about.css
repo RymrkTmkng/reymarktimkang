@@ -1,0 +1,22 @@
+.about-logo,.skill-logo{
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.bachelor-desc,.skill-desc{
+    font-size: 1rem;
+}
+
+.skill-box{
+    text-align: center;
+}
+
+.about-desc{
+    text-align: justify;
+    line-height: 2rem;
+}
+@media only screen and (max-width: 575px) {
+    
+    .bachelor,.cert-box,.skill-box{
+        margin-bottom: 2rem;
+    }
+}

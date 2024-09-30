@@ -1,0 +1,110 @@
+:root{
+    --bs-body-font-family: "Montserrat", sans-serif !important;
+    --bs-body-bg: none !important;
+}
+.primary-cont{
+   height: 100vh ;
+   overflow-x: hidden;
+}
+
+body{
+    background-image: radial-gradient(600px at 350px bottom, rgba(255, 255, 255, 0.5), #61c2f9);
+}
+
+.text-thin-2rem {
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+}
+
+.navspace{
+    padding: 0 50px;
+}
+
+.spinnerloader{
+    background-color: rgba(0,0, 0, 0.5);
+    display: flex;
+}
+
+.header-title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1em;
+    
+}
+
+.header-desc{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.explorebtn {
+    border-radius: 2rem !important;
+    /* background-image: linear-gradient(to bottom, #dbf1fe, #61c2f9);
+    color: black !important;
+    border: none !important; */
+    min-width: 50%;
+    font-weight: 600 !important;
+    font-size: 2rem !important;
+    /* box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2); */
+}
+.explorebtn:hover{
+    color: white !important;
+    border-color: white !important;
+    background: none !important;
+}
+
+
+.active{
+ font-weight: 600 !important; 
+}
+.my-logo img{
+  max-width: 100px;
+  max-height: 100px;
+}
+/* @media screen and (min-width:800px) {
+    .primary-cont{
+       overflow: hidden;
+    }
+} */
+
+
+/*-------------animations---------------------*/
+
+.namewdesc, .gradpic, .technobox, .ytchannel {
+    position: relative;
+    animation: slideInFromRight 2s ease-out forwards;
+  }
+  
+  .acads, .workbox, .proj-box, .ytdesc, .card-cont {
+    position: relative;
+    animation: slideInFromLeft 2s ease-out forwards;
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }  
+
+  /*Responsiveness*/
+  @media screen and (max-width:476px) {  
+    .primary-cont{
+      height: 100% !important;
+    }
+    .my-logo{
+      display:none;
+    }
+}

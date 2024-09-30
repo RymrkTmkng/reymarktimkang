@@ -1,0 +1,65 @@
+.imgwithtext{
+    position: absolute;
+    top: 142px;
+    left: 75px;
+}
+.card-cont{
+    border-radius: 5rem !important;
+}
+.card{  
+    border: none;
+    box-shadow:  1px 2px 5px 1px rgba(0,0,0,0.5);
+}
+.card-title{
+    font-weight: 700;
+}
+.card-body{
+    margin: 0 3rem;
+}
+textarea{
+    resize: none;
+}
+.gmail{
+    display: flex;
+    align-items: center;
+    border-start-end-radius: 5rem;
+    border-end-end-radius: 5rem;
+    background-image: radial-gradient(600px at 350px bottom, rgba(255, 255, 255, 0.745), #61c2f9);
+}
+@media screen and (max-width:390px) {
+   .card-title{
+    font-size: 0.6rem !important;
+   } 
+}
+@media screen and (max-width:476px) {
+    .primary-cont {
+        height: 100vh !important;
+      }
+    /* .card{
+        border-radius: 1rem;
+        width:100%;
+        background-color: white !important;
+    } */
+    .gmail {
+      display: block;
+      border-radius:1rem;
+    }
+    .card-body{
+        margin:0;
+    }
+    .cart-title{
+        font-size: 0.95rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .cardimg{
+        display: none;
+    }
+    .card-cont{
+        width: 100%;
+        align-items: center;
+    }
+    .gmail{
+        background-image: none;
+    }
+}

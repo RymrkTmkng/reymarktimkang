@@ -1,0 +1,60 @@
+
+.header-desc{
+    font-size: 0.8rem;
+}
+.ytchannel{
+    width: 250px;
+    height: 250px;
+}
+ .shifu-logo{
+        max-width: 150px;
+        text-align: center;
+    }
+.yt-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 4rem;
+}
+.yt-logo{
+    max-width: 100px;
+}
+
+.learn{
+    margin: auto;
+}
+
+.card-title {
+    font-size: 0.8rem;
+}
+.card-text {
+    font-size: .7rem;
+}
+.card-body{
+    margin:0 !important;
+    padding: 0 !important;
+}
+
+@media screen and (max-width:476px){
+    .ytchannel {
+        max-width: 150px;
+    }
+    .shifu-logo{
+        max-width: 100px;
+    }
+    .yt-box{
+        justify-content: center;
+        align-items: center;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-text {
+        font-size: .7rem;
+    }
+    .primary-cont {
+        height: 100vh !important;
+    }
+    .learn{
+        height:auto !important;
+    }
+}

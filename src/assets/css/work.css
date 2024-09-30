@@ -1,0 +1,68 @@
+.primary-cont{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.technobox{
+    padding: 0rem 5rem;
+    min-height: 600px;
+}
+
+.card,.card-body{
+    padding:0;
+}
+.card{
+    border-radius: 4rem;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.5);
+    border:none;
+}
+.work-logo{
+    max-width: 200px;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.workbox{
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card-body{
+    color:#dbf1fe;
+    padding-top:2rem;
+    margin-bottom: 2rem;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0 0.3rem ;
+}
+
+.tech-logos{
+    max-width: 100px;
+}
+@media only screen and (max-width: 476px){
+    .header-title{
+        font-size: 2rem !important;
+    }
+
+    .card-title{
+        font-size: 1rem !important;
+    }
+
+    .card-text{
+        font-size: 0.8rem !important;
+    }
+
+    .techs li   {
+        margin-top: 2rem;
+    }
+
+    #work{
+        padding: 0rem 2rem;
+    }
+}   
